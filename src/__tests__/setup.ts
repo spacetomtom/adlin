@@ -1,8 +1,8 @@
 import { vi } from 'vitest';
 
 class BroadcastChannelMock {
-  constructor(name: string) {}
-  postMessage(message: any) {}
+  constructor() {}
+  postMessage() {}
   close() {}
   addEventListener = vi.fn();
   removeEventListener = vi.fn();

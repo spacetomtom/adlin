@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue';
 import { useRoomStore } from '../stores/roomStore';
-import type { Room } from '../types/room';
 
 const store = useRoomStore();
 

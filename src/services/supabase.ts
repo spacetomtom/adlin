@@ -1,5 +1,5 @@
 import { supabase } from '../lib/supabaseClient';
-import type { Room, Reservation } from '../types/room';
+import type { Reservation } from '../types/room';
 
 export const roomService = {
   async getAllRooms() {

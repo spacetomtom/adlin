@@ -1,10 +1,7 @@
 <script setup lang="ts">
-import { createPinia } from 'pinia';
-import RoomList from './components/RoomList.vue';
 import ReservationForm from './components/ReservationForm.vue';
 import UpcomingMeetings from './components/UpcomingMeetings.vue';
 
-const pinia = createPinia();
 </script>
 
 <template>

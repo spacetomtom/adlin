@@ -57,7 +57,7 @@ describe('UpcomingMeetings.vue', () => {
     const mockGetUpcomingMeetings = vi.fn().mockResolvedValue([]);
     store.getUpcomingMeetings = mockGetUpcomingMeetings;
 
-    const wrapper = mount(UpcomingMeetings);
+    mount(UpcomingMeetings);
     await flushPromises();
 
     // simulate refresh trigger change
