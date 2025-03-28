@@ -1,5 +1,7 @@
 # Meeting Room Reservation System
 
+![](meetingRoomBooking.png)
+
 A Vue.js application for managing meeting room reservations with Supabase as the backend.
 
 ## Features
